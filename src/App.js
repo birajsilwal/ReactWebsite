@@ -3,7 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
-import { Route, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 import TopHeader from "./components/Header";
 
 function App() {

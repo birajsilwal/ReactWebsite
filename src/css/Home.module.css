@@ -1,0 +1,28 @@
+.bannerCaption {
+  font-weight: 300;
+}
+
+.bgDark1 {
+  background-color: #15202b;
+}
+
+.pLight1 {
+  color: white;
+}
+
+.profilePicture1 {
+  border-radius: 5rem;
+  width: 70%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .profilePicture1 {
+    border-radius: 5rem;
+    width: 40%;
+    text-align: left;
+  }
+}
+
