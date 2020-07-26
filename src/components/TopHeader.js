@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import HeaderCss from "../css/Header.module.css";
@@ -9,6 +10,7 @@ export default function TopHeader() {
     color: "black",
     fontSize: "1.2rem",
     textTransform: "uppercase",
+    padding: "1rem"
   };
 
   return (
@@ -17,10 +19,8 @@ export default function TopHeader() {
         <Navbar.Brand className={HeaderCss} href="#home">Biraj Silwal</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
-          <Nav.Link style={a} href="#home">Home</Nav.Link>
-          <Nav.Link style={a} href="#link">Resume</Nav.Link>
-          <Nav.Link style={a} href="#link">LinkedIn</Nav.Link>
-          <Nav.Link style={a} href="#link">Github</Nav.Link>
+          <Link style={a} to="/">Home</Link>
+          <Link style={a} to="/resume">Resume</Link>
         </Navbar.Collapse>
       </Navbar>
     </div>

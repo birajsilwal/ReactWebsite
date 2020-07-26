@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import TopHeader from './components/TopHeader';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
+
 // import 'bootstrap/scss/bootstrap.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <TopHeader />
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </BrowserRouter>,
+  document.getElementById("root")
 );
