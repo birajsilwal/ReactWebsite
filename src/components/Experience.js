@@ -17,7 +17,7 @@ export default function Experience() {
               <div class="row justify-content-center text-left">
 
                 {/* Lab Assistant */}
-                <div class="col-md-6 col-sm-8">
+                <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>Lab Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcase /> UNM Moses Biological Computation Lab  </h5>
                   <ul class="exp-ul">
@@ -36,7 +36,7 @@ export default function Experience() {
 
 
                 {/* <!-- IT Assistant --> */}
-                <div class="col-md-6 col-sm-8">
+                <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>IT Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcase /> The University of New Mexico </h5>
                   <ul class="exp-ul">
@@ -56,7 +56,7 @@ export default function Experience() {
 
 
                 {/* <!-- Research Assistant at SAU --> */}
-                <div class="col-md-6 col-sm-8">
+                <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>Research Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcase /> St. Ambrose University </h5>
                   <ul class="exp-ul">
@@ -73,7 +73,7 @@ export default function Experience() {
                 </div>
 
                 {/* <!-- Mentor --> */}
-                <div class="col-md-6 col-sm-8">
+                <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>Mentor</h4>
                   <h5 class="exp-comp"><BsBriefcase /> Alcoa Learning Center </h5>
                   <ul class="exp-ul">
@@ -91,7 +91,7 @@ export default function Experience() {
 
 
                 {/* <!-- Robotics Club --> */}
-                <div class="col-md-6 col-sm-8">
+                <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>President</h4>
                   <h5 class="exp-comp"><BsBriefcase /> GoldenGate Robotics Club </h5>
                   <ul class="exp-ul">
@@ -107,7 +107,7 @@ export default function Experience() {
                 </div>
 
                 {/* <!-- Comment about job --> */}
-                  {/* <div class="col-md-6 col-sm-8">
+                  {/* <div class="col-md-7 col-sm-8">
                     <h4 class={ExperienceCss.h4}>Job Title</h4>
                     <h5 class="exp-comp"><BsBriefcase /> Employer </h5>
                     <ul class="exp-ul">
