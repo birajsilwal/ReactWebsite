@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import { Route, Link } from "react-router-dom";
-import TopHeader from "./components/TopHeader";
+import TopHeader from "./components/Header";
 
 function App() {
   return (
