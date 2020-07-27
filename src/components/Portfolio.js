@@ -89,7 +89,7 @@ export default function Portfolio() {
               </Modal.Header>
               <Modal.Body>
                 Sorry, modal is currently not working.
-                Please visit my github. 
+                Please visit my github for more detail. 
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
