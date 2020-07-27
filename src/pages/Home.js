@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import profilePic from "../static/profilePic.png";
 import HomeCss from "../css/Home.module.css";
 import Experience from "../components/Experience"
+import Portfolio from "../components/Portfolio"
 
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
           </section>
 
           <Experience />
+          <Portfolio />
 
         </main>
 
