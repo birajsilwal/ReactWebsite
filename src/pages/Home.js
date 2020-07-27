@@ -4,6 +4,7 @@ import profilePic from "../static/profilePic.png";
 import HomeCss from "../css/Home.module.css";
 import Experience from "../components/Experience"
 import Portfolio from "../components/Portfolio"
+import AboutMePicture from "../components/AboutMePicture"
 
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
 
           <Experience />
           <Portfolio />
+          <AboutMePicture />
 
         </main>
 

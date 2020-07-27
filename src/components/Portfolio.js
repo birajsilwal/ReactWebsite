@@ -37,7 +37,7 @@ export default function Portfolio() {
                     <p class="card-text">Add some details here</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <Button variant="primary" size="sm" onClick={handleShow}>
+                        <Button variant="primary" size="sm" onClick={(handleShow)}>
                           View
                         </Button>
                       </div>
@@ -69,7 +69,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal centered show={show} onHide={handleClose}>
               <Modal.Header closeButton>
                 <Modal.Title>myLobo</Modal.Title>
               </Modal.Header>
@@ -83,12 +83,13 @@ export default function Portfolio() {
               </Modal.Footer>
             </Modal>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal centered show={show} onHide={handleClose}>
               <Modal.Header closeButton>
                 <Modal.Title>SimpleTweets</Modal.Title>
               </Modal.Header>
               <Modal.Body>
-                Learn more about simple tweets
+                Sorry, modal is currently not working.
+                Please visit my github. 
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
