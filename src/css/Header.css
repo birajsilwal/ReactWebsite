@@ -7,3 +7,8 @@
   color: #1a73e8;
 }
   
+.nav-link {
+  display: inline;
+  padding: .5rem 1rem;
+
+}
