@@ -24,3 +24,10 @@ p {
 ul li{
   list-style: disc;
 }
+
+@media (max-width:520px)  {
+  /* smartphones, iPhone, portrait 480x320 phones */ 
+  ul {
+    margin-left: -1rem;
+  }
+}

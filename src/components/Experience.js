@@ -1,9 +1,9 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import ExperienceCss from "../css/Experience.module.css";
-import { BsBriefcase } from 'react-icons/bs';
-import { GoLocation } from 'react-icons/go';
-import { BsCalendar } from 'react-icons/bs';
+import { BsBriefcaseFill } from 'react-icons/bs';
+import { MdLocationOn } from 'react-icons/md';
+import { BsCalendarFill } from 'react-icons/bs';
 
 
 export default function Experience() {
@@ -16,10 +16,27 @@ export default function Experience() {
               <br></br>
               <div class="row justify-content-center text-left">
 
+                {/* App Developer */}
+                <div class="col-md-7 col-sm-8">
+                  <h4 class={ExperienceCss.h4}>App Developer</h4>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> UNM Engineering Student Success Center </h5>
+                  <ul class="exp-ul">
+                    <li>Developed Server-Side Rendering (SSR) Progressive Web Application (PWA) using Vue.js framework as a front-end and MongoDB as a back-end.</li>
+                    <li>Used Keystone.js as a Content Management System (CMS). </li>
+                    <li>Other technologies used: Node.js, Graphql, AWS EC2, and Bootstrap.</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-4 pb-5">
+                  <div class="exp-info">
+                    <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
+                    <div class="exp-date"><BsCalendarFill /> May 2020 - <strong>Present</strong></div>
+                  </div>
+                </div>
+
                 {/* Lab Assistant */}
                 <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>Lab Assistant</h4>
-                  <h5 class="exp-comp"><BsBriefcase /> UNM Moses Biological Computation Lab  </h5>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> UNM Moses Biological Computation Lab  </h5>
                   <ul class="exp-ul">
                     <li>Collaborating on "Swarmathon: The Next Generation" project - assist in creation of Convolutional Neural Network based image classifier using Tensorflow</li>
                     <li>Deployed trained models into the robot and reported the outcomes</li>
@@ -28,8 +45,8 @@ export default function Experience() {
                 </div>
                 <div class="col-md-3 col-sm-4 pb-5">
                   <div class="exp-info">
-                    <div class="exp-loc"><GoLocation/> Albuquerque, NM</div>
-                    <div class="exp-date"><BsCalendar /> Oct 2019 - Present</div>
+                    <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
+                    <div class="exp-date"><BsCalendarFill /> Oct 2019 - <strong>Present</strong></div>
                   </div>
                 </div>
 
@@ -38,19 +55,18 @@ export default function Experience() {
                 {/* <!-- IT Assistant --> */}
                 <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>IT Assistant</h4>
-                  <h5 class="exp-comp"><BsBriefcase /> The University of New Mexico </h5>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> The University of New Mexico </h5>
                   <ul class="exp-ul">
                     <li>Used QUERY and other Google Sheets formulas connecting multiple sheets to manage student-related data of 60-80 students</li>
                     <li>Designed User Interface (UI) of student profile dashboard by creating different charts in Google Sheets to track student's academic progress  </li>
-                    <li>Enhanced User Experience (UX) by redesigning database and successfully transferring entire data to newly designed database</li>
-                    <li>Responsible for creating and updating content of the University of New Mexico (UNM) High School Equivalency Program (HEP) and UNM College Assistance Migrant Program (CAMP) websites.</li>
+                    <li>Redesigned Google sheets database and successfully transferred entire data to newly designed database</li>
                     <li>Ensured users are highly satisfied, met and exceeded expectations</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4  pb-5">
                   <div class="exp-info">
-                    <div class="exp-loc"><GoLocation/> Albuquerque, NM</div>
-                    <div class="exp-date"><BsCalendar /> May 2019 - Present</div>
+                    <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
+                    <div class="exp-date"><BsCalendarFill /> May 2019 - <strong>Present</strong></div>
                   </div>
                 </div>
 
@@ -58,7 +74,7 @@ export default function Experience() {
                 {/* <!-- Research Assistant at SAU --> */}
                 <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>Research Assistant</h4>
-                  <h5 class="exp-comp"><BsBriefcase /> St. Ambrose University </h5>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> St. Ambrose University </h5>
                   <ul class="exp-ul">
                     <li>Assisted Dr. Robert Mitchell with improving performance and precision of the calculation to find the distance of supernovae in other galaxies using Expanding Photosphere Method (EPM) while processing the spectroscopic data into MATLAB code</li>
                     <li>Facilitated by creating new programs and improving existing programs in MATLAB to increase precision for calculating wavelengths of different elements</li>
@@ -67,15 +83,15 @@ export default function Experience() {
                 </div>
                 <div class="col-md-3 col-sm-4  pb-5">
                   <div class="exp-info">
-                    <div class="exp-loc"><GoLocation/> Davenport, IA</div>
-                    <div class="exp-date"><BsCalendar /> July - Aug 2018</div>
+                    <div class="exp-loc"><MdLocationOn/> Davenport, IA</div>
+                    <div class="exp-date"><BsCalendarFill /> July - Aug 2018</div>
                   </div>
                 </div>
 
                 {/* <!-- Mentor --> */}
                 <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>Mentor</h4>
-                  <h5 class="exp-comp"><BsBriefcase /> Alcoa Learning Center </h5>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> Alcoa Learning Center </h5>
                   <ul class="exp-ul">
                     <li>Worked closely with senior mentors and students to facilitate the designing and construction process of the robot</li>
                     <li>Used C programming language to control the robot via joystick and successfully made it autonomous to traverse 4.5 ft. carrying, lifting, and dropping a box into 5 ft. high plate</li>
@@ -84,8 +100,8 @@ export default function Experience() {
                 </div>
                 <div class="col-md-3 col-sm-4  pb-5">
                   <div class="exp-info">
-                    <div class="exp-loc"><GoLocation/> Bettendorf, IA</div>
-                    <div class="exp-date"><BsCalendar /> Feb - Dec 2018</div>
+                    <div class="exp-loc"><MdLocationOn/> Bettendorf, IA</div>
+                    <div class="exp-date"><BsCalendarFill /> Feb - Dec 2018</div>
                   </div>
                 </div>
 
@@ -93,23 +109,22 @@ export default function Experience() {
                 {/* <!-- Robotics Club --> */}
                 <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>President</h4>
-                  <h5 class="exp-comp"><BsBriefcase /> GoldenGate Robotics Club </h5>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> GoldenGate Robotics Club </h5>
                   <ul class="exp-ul">
-                    <li>Responsible for holding meetings, delegating tasks, fundraising, financial management, and educational outreach</li>
-                    <li>Led a team of up to 7 students to create four science projects: Solar Plane Assuring Safety Aviation (SPASA), Garbage Power Plant - to generate electricity, Concentrated Solar Thermal Power Plant - to generate electricity, Line Following Robot - programmed using C</li>
+                    <li>Led a team of up to 7 students to create four science projects: Solar Plane Assuring Safety Aviation (SPASA), Garbage Power Plant - generating electricity from garbage, Concentrated Solar Thermal Power Plant, Line Following Robot - programmed with C</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4  pb-5">
                   <div class="exp-info">
-                    <div class="exp-loc"><GoLocation/> Kathmandu, Nepal</div>
-                    <div class="exp-date"><BsCalendar /> Aug 2013 - May 2015</div>
+                    <div class="exp-loc"><MdLocationOn/> Kathmandu, Nepal</div>
+                    <div class="exp-date"><BsCalendarFill /> Aug 2013 - May 2015</div>
                   </div>
                 </div>
 
                 {/* <!-- Comment about job --> */}
                   {/* <div class="col-md-7 col-sm-8">
                     <h4 class={ExperienceCss.h4}>Job Title</h4>
-                    <h5 class="exp-comp"><BsBriefcase /> Employer </h5>
+                    <h5 class="exp-comp"><BsBriefcaseFill /> Employer </h5>
                     <ul class="exp-ul">
                       <li></li>
                       <li></li>
@@ -118,8 +133,8 @@ export default function Experience() {
                   </div>
                   <div class="col-md-3 col-sm-4">
                     <div class="exp-info">
-                      <div class="exp-loc"><GoLocation/>Location</div>
-                      <div class="exp-date"><BsCalendar /> Date</div>
+                      <div class="exp-loc"><MdLocationOn/>Location</div>
+                      <div class="exp-date"><BsCalendarFill /> Date</div>
                     </div>
                   </div> */}
 
