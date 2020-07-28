@@ -18,6 +18,7 @@ export default function TopHeader() {
 
   return (
     <div>
+      
       <Navbar expand="sm">
         <Navbar.Brand className={HeaderCss} href="#home">Biraj Silwal</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
