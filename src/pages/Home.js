@@ -35,6 +35,7 @@ export default function Home() {
           <AboutMe />
           <Experience />
           <Portfolio />
+          <h3>More coming soon...</h3>
         </main>
 
       </div>

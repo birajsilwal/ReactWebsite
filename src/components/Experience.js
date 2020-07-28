@@ -21,7 +21,7 @@ export default function Experience() {
                   <h4 class={ExperienceCss.h4}>App Developer</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> UNM Engineering Student Success Center </h5>
                   <ul class="exp-ul">
-                    <li>Developed Server-Side Rendering (SSR) Progressive Web Application (PWA) using Vue.js framework as a front-end and MongoDB as a back-end.</li>
+                    <li>Developed Server-Side Rendering (SSR) Progressive Web Application (PWA) using Vue.js framework (Nuxt.js) as a front-end and MongoDB as a back-end.</li>
                     <li>Used Keystone.js as a Content Management System (CMS). </li>
                     <li>Other technologies used: Node.js, Graphql, AWS EC2, and Bootstrap.</li>
                   </ul>
