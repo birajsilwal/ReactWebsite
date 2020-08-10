@@ -1,0 +1,16 @@
+.bgLight1 {
+  background-color: white;
+}
+
+.statImg {
+  /* height: 11vmax; */
+  height: 200px;
+  margin: 0 auto;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .statImg {
+    height: 19vmax;
+  }
+}

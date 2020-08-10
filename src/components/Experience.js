@@ -10,7 +10,7 @@ export default function Experience() {
   return (
     <div>   
       {/* EXPERIENCE */}
-      <section className= {`${Experience.bgLight1} py-5`}>
+      <section className= {`${ExperienceCss.bgLight1} py-5`}>
             <div class="container">
               <h2>EXPERIENCE</h2>
               <br></br>
@@ -111,7 +111,7 @@ export default function Experience() {
                   <h4 class={ExperienceCss.h4}>President</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> GoldenGate Robotics Club </h5>
                   <ul class="exp-ul">
-                    <li>Led a team of up to 7 students to create four science projects: Solar Plane Assuring Safety Aviation (SPASA), Garbage Power Plant - generating electricity from garbage, Concentrated Solar Thermal Power Plant, Line Following Robot - programmed with C</li>
+                    <li>Led a team of up to 7 students to create four science projects: Solar Plane Assuring Safety Aviation (SPASA), Garbage Power Plant - generating electricity from garbage, Concentrated Solar Thermal Power Plant</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4  pb-5">

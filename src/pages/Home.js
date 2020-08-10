@@ -5,6 +5,7 @@ import "../css/Home.css";
 import Experience from "../components/Experience";
 import Portfolio from "../components/Portfolio";
 import AboutMe from "../components/AboutMe";
+import GithubStat from "../components/GithubStat";
 import ro from "../static/robot2.png";
 
 export default function Home() {
@@ -35,6 +36,7 @@ export default function Home() {
           <AboutMe />
           <Experience />
           <Portfolio />
+          <GithubStat />
           <h3>More coming soon...</h3>
         </main>
 
