@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -10,17 +10,42 @@ import { css } from 'emotion';
 
 export default function TopHeader() {
 
+  // const [background, setBackground] = useState("black");
+
+  // const setStyle = (background) => {
+  //   setBackground(background);
+  // };
+
   const aa = css`
+    position: relative;
     color: black;
     font-size: 1.3rem;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 0 1rem;
+    margin: 0 1rem;
+    &:hover {
+      text-decoration: none;
+    }
+    &:hover:before {
+      visibility: visible;
+      transform: scaleX(1); 
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #1a73e8;
+      visibility: hidden;
+      transform: scaleX(0);
+      transition: all 0.5s ease-in-out;
+    }
   `
 
   return (
     <div>
-      
       <Navbar expand="sm">
         <Navbar.Brand href="#home">Biraj Silwal</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
