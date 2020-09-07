@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -9,12 +9,6 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { css } from 'emotion';
 
 export default function TopHeader() {
-
-  // const [background, setBackground] = useState("black");
-
-  // const setStyle = (background) => {
-  //   setBackground(background);
-  // };
 
   const aa = css`
     position: relative;
