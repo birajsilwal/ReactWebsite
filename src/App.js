@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import { Route } from "react-router-dom";
-import TopHeader from "./components/Header";
+import NewHeader from "./components/NewHeader";
 import ReactGA from "react-ga";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <TopHeader />
+      <NewHeader />
       <Route exact path="/" component={Home} />
       <Route exact path="/resume" component={Resume} />
     </div>
