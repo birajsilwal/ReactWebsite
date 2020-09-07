@@ -8,7 +8,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 import { css } from 'emotion';
 
-export default function TopHeader() {
+export default function NewHeader() {
 
   const aa = css`
     position: relative;

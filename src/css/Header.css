@@ -10,5 +10,6 @@
 .nav-link {
   display: inline;
   margin: .5rem 1rem;
+  padding: 0;
 
 }
