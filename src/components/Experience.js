@@ -23,6 +23,8 @@ export default function Experience() {
                   <ul class="exp-ul">
                     <li>Developed Server-Side Rendering (SSR) Progressive Web Application (PWA) using Vue.js framework (Nuxt.js) as a front-end and MongoDB as a back-end.</li>
                     <li>Used Keystone.js as a Content Management System (CMS). </li>
+                    <li>Deployed an app (<a href="https://success.unm.edu" target="_blank" rel="noopener noreferrer">success.unm.edu</a>) to Amazon Web Services (AWS) EC2 instance.</li>
+                    <li>Designed and programmed the UI/UX.</li>
                     <li>Other technologies used: Node.js, Graphql, AWS EC2, and Bootstrap.</li>
                   </ul>
                 </div>
@@ -38,9 +40,9 @@ export default function Experience() {
                   <h4 class={ExperienceCss.h4}>Lab Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> UNM Moses Biological Computation Lab  </h5>
                   <ul class="exp-ul">
-                    <li>Collaborating on "Swarmathon: The Next Generation" project - assist in creation of Convolutional Neural Network based image classifier using Tensorflow</li>
-                    <li>Deployed trained models into the robot and reported the outcomes</li>
-                    <li>Assisted on creating and manipulating data sets of thousands of images</li>
+                    <li>Assisted in creating Convolutional Neural Network (CNN) based image classifier using Python and Tensorflow.</li>
+                    <li>Deployed trained models into the robot and reported the outcomes.</li>
+                    <li>Created and manipulated data sets of thousands of images to train machine learning model.</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4 pb-5">
@@ -51,22 +53,20 @@ export default function Experience() {
                 </div>
 
 
-
                 {/* <!-- IT Assistant --> */}
                 <div class="col-md-7 col-sm-8">
                   <h4 class={ExperienceCss.h4}>IT Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> The University of New Mexico </h5>
                   <ul class="exp-ul">
-                    <li>Used QUERY and other Google Sheets formulas connecting multiple sheets to manage student-related data of 60-80 students</li>
-                    <li>Designed User Interface (UI) of student profile dashboard by creating different charts in Google Sheets to track student's academic progress  </li>
-                    <li>Redesigned Google sheets database and successfully transferred entire data to newly designed database</li>
-                    <li>Ensured users are highly satisfied, met and exceeded expectations</li>
+                    <li>Used QUERY and other Google Sheets formulas connecting multiple sheets to manage student-related data of 60-80 students.</li>
+                    <li>Designed User Interface (UI) of student profile dashboard by creating different charts in Google Sheets to track student's academic progress.</li>
+                    <li>Ensured users are highly satisfied; Met and exceeded expectations</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4  pb-5">
                   <div class="exp-info">
                     <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
-                    <div class="exp-date"><BsCalendarFill /> May 2019 - <strong>Present</strong></div>
+                    <div class="exp-date"><BsCalendarFill /> May 2019 - Aug 2020</div>
                   </div>
                 </div>
 
