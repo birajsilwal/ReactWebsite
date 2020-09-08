@@ -18,7 +18,7 @@
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .profilePicture1 {
     border-radius: 5rem;
     width: 40%;

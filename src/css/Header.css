@@ -14,11 +14,14 @@
 
 }
 
-.justify-content-end {
-  display: flex;
-  flex-direction: column;
-}
-
-.navbar-collapse {
-  align-items: flex-start;
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575px) {
+  .justify-content-end {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar-collapse {
+    align-items: flex-start;
+  }
 }
