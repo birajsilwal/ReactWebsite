@@ -46,7 +46,8 @@ export default function NewHeader() {
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Link className={aa} to="/">Home</Link>
           <Link className={aa} to="/resume">Resume</Link>
-          <Link className={aa} to="/tutoring">Tutoring</Link>
+          {/* <Link className={aa} to="/tutoring">Tutoring</Link> */}
+          <a className={aa} href="../tutoring">Tutoring</a>
           <Nav.Link className={aa} href="https://github.com/birajsilwal" target="_blank"><FiGithub /></Nav.Link>
           <Nav.Link className={aa} href="https://www.linkedin.com/in/birajsilwal/" target="_blank"><FaLinkedinIn /></Nav.Link>
         </Navbar.Collapse>
