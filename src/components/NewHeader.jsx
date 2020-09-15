@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import "../css/Header.css";
 import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
+// import Tutoring from '../pages/Tutoring';
 
 import { css } from 'emotion';
 
@@ -47,7 +48,7 @@ export default function NewHeader() {
           <Link className={aa} to="/">Home</Link>
           <Link className={aa} to="/resume">Resume</Link>
           {/* <Link className={aa} to="/tutoring">Tutoring</Link> */}
-          <a className={aa} href="../tutoring">Tutoring</a>
+          <Nav.Link className={aa} href="../Tutoring">Tutoring</Nav.Link>
           <Nav.Link className={aa} href="https://github.com/birajsilwal" target="_blank"><FiGithub /></Nav.Link>
           <Nav.Link className={aa} href="https://www.linkedin.com/in/birajsilwal/" target="_blank"><FaLinkedinIn /></Nav.Link>
         </Navbar.Collapse>
