@@ -21,9 +21,9 @@ function App() {
   return (
     <div className="App">
       <NewHeader />
-      <Route exact path="/" component={Home} />
-      <Route exact path="/resume" component={Resume} />
-      <Route exact path="/tutoring" component={Tutoring} />
+      <Route  path="/" component={Home} />
+      <Route  path="/resume" component={Resume} />
+      <Route  path="/tutoring" component={Tutoring} />
     </div>
   );
 }
