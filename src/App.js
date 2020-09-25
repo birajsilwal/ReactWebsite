@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import Tutoring from "./pages/Tutoring";
+import test from "./pages/test";
 import { Route } from "react-router-dom";
 import NewHeader from "./components/NewHeader";
 import ReactGA from "react-ga";
@@ -21,9 +22,13 @@ function App() {
   return (
     <div className="App">
       <NewHeader />
-      <Route  path="/" component={Home} />
-      <Route  path="/resume" component={Resume} />
-      <Route  path="/tutoring" component={Tutoring} />
+      <switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/tutoring" component={Tutoring} />
+        <Route exact path="/test" component={test} />
+      </switch>
+      
     </div>
   );
 }
