@@ -6,7 +6,8 @@ import Resume from "./pages/Resume";
 import Tutoring from "./pages/Tutoring";
 import test from "./pages/test";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NewHeader from "./components/NewHeader";
+import Header from "./components/Header";
+import IconBarHeader from "./components/IconBarHeader";
 import ReactGA from "react-ga";
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
   return (
     <Router>  
       <div className="App">
-        <NewHeader />
+        <Header />
+        <IconBarHeader />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/resume" component={Resume} />

@@ -21,9 +21,9 @@ p {
   color: black;
 }
 
-ul li{
+/* ul li{
   list-style: disc;
-}
+} */
 
 @media (max-width:520px)  {
   /* smartphones, iPhone, portrait 480x320 phones */ 
