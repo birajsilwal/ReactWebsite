@@ -39,6 +39,15 @@ export default function IconBarHeader() {
       border-bottom: 2px solid #007bff;
     }
   `
+  const iconBarP = css`
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+
+    &:hover {
+      color: #007bff;
+    }
+  `
 
   return (
     <div className={iconBarUlContainer}>
@@ -47,21 +56,21 @@ export default function IconBarHeader() {
         <Link className={aa} to="/">
           <li> <TiHome size={24}/> 
             <br></br>
-            Home 
+            <p className={iconBarP}>Home</p> 
           </li>
         </Link>
 
         <Link className={aa} to="/tutoring">
           <li> <FaChalkboardTeacher size={24} /> 
             <br></br>
-            Tutoring 
+            <p className={iconBarP}>Tutoring</p> 
           </li>
         </Link>
 
         <Link className={aa} to="/resume">
           <li> <GoThreeBars size={24}/> 
             <br></br>
-            More 
+            <p className={iconBarP}>More</p>
           </li>
         </Link>
 
