@@ -22,7 +22,7 @@ export default function Tutoring() {
 
   return (
     <div class="container">
-      <h3 class="pt-2">My tutoring hours @ UNM ESS </h3>
+      <h4 class="pt-2">My tutoring hours @ UNM ESS </h4>
       <h4 class="pb-4">Fall 2020</h4>
       
 
@@ -50,6 +50,16 @@ export default function Tutoring() {
       <p>For more information: <a href="https://ess.unm.edu/services/tutoring/fall-2020-tutoring-schedule.pdf" target="_blank" rel="noopener noreferrer">
         https://ess.unm.edu/services/tutoring/fall-2020-tutoring-schedule.pdf</a> 
       </p>
+
+      <p>CS department tutoring hours: <a href="https://docs.google.com/spreadsheets/d/1tun91ofSxJ8jX8nq_MZ6vahPbcBZWS7e7FgwRjhd7OQ/edit#gid=0" target="_blank" rel="noopener noreferrer">
+        Click here!</a> 
+      </p>
+
+      <p>UNM CAPS: <a href="https://caps.unm.edu/" target="_blank" rel="noopener noreferrer">
+        Click here!</a> 
+      </p>
+
+      
             
     </div>
   )
