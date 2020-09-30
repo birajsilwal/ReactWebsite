@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../static/Resume - Biraj Silwal.pdf';
 import { css } from 'emotion';
 
 export default function Resume() {
@@ -12,9 +11,8 @@ export default function Resume() {
     <div>
       <h3>Biraj Silwal's Resume</h3>
       <p className={pInResume}>Last updated on 9th Sep 2020.</p>
-      <p className={ `${pInResume} pb-5`}>You can also download my resume <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.</p>
-      {/* <embed src={resume} width="100%" height="900px" /> */}
-
+      <p className={ `${pInResume} pb-5`}>You can download my resume <a href="https://birajsilwal.github.io/static/media/Resume%20-%20Biraj%20Silwal.fb648f60.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
     </div>
+
   )
 }
