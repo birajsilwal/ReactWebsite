@@ -31,7 +31,43 @@ export default function Experience() {
                 <div class="col-md-3 col-sm-4 pb-5">
                   <div class="exp-info">
                     <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
-                    <div class="exp-date"><BsCalendarFill /> May 2020 - <strong>Present</strong></div>
+                    <div class="exp-date"><BsCalendarFill /> Apr 2020 - <strong>Present</strong></div>
+                  </div>
+                </div>
+
+                {/* Grader */}
+                <div class="col-md-7 col-sm-8">
+                  <h4 class={ExperienceCss.h4}>Grader</h4>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> Department of Computer Science, University of New Mexico </h5>
+                  <ul class="exp-ul">
+                    <li>Provides in-class JAVA tutoring (topics: OOP, class, object, inheritance, polymorphism, interface, JavaFX, exception handling), and other as needed.</li>
+                    <li>Grades assignments and tests on JAVA programs of 26 students.</li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-4 pb-5">
+                  <div class="exp-info">
+                    <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
+                    <div class="exp-date"><BsCalendarFill /> August 2020 - <strong>Present</strong></div>
+                  </div>
+                </div>
+
+                {/* Tutor */}
+                <div class="col-md-7 col-sm-8">
+                  <h4 class={ExperienceCss.h4}>Tutor</h4>
+                  <h5 class="exp-comp"><BsBriefcaseFill /> UNM Engineering Student Success Center </h5>
+                  <ul class="exp-ul">
+                    <li>Holds group and one-on-one tutoring sessions.</li>
+                    <li>Courses: CS 152L(JAVA 1), CS 251L(JAVA 2), CS 261(Discrete mathematics), CS 241L(Data organization), 
+                      CS 351L(JAVA 3), CS 361L, CS 362L(Data structures and algorithms 1 & 2), 
+                      MATH 162, MATH 163(Calc 1 & 2), MATH 314/321(Linear algebra), STAT 345(Elements of mathematical statistics and probability), 
+                      PHYC 160, PHYC 161(Physics 1 & 2) </li>
+                  </ul>
+                  
+                </div>
+                <div class="col-md-3 col-sm-4 pb-5">
+                  <div class="exp-info">
+                    <div class="exp-loc"><MdLocationOn/> Albuquerque, NM</div>
+                    <div class="exp-date"><BsCalendarFill /> August 2020 - <strong>Present</strong></div>
                   </div>
                 </div>
 
