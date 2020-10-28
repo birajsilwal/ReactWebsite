@@ -5,6 +5,9 @@ import { TiHome } from 'react-icons/ti';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { GoThreeBars } from 'react-icons/go';
 import { Link } from "react-router-dom";
+import Nav from "react-bootstrap/Nav";
+import { FiGithub } from 'react-icons/fi';
+import { FaLinkedinIn } from 'react-icons/fa';
 
 export default function IconBarHeader() {
 
@@ -15,7 +18,7 @@ export default function IconBarHeader() {
     z-index: 111;
 
     /* for pc */
-    @media screen and (min-width: 900px) {
+    @media screen and (min-width: 575px) {
       display: none;
     }
   `
@@ -30,6 +33,7 @@ export default function IconBarHeader() {
   const aa = css`
     color: black;
     text-decoration: none;
+    margin: 0;
     &::active {
       text-decoration: none;
     }
@@ -60,6 +64,13 @@ export default function IconBarHeader() {
           </li>
         </Link>
 
+        <Link className={aa} to="/resume">
+          <li> <img src="https://img.icons8.com/ios-filled/96/000000/open-resume.png" width="25em"/>
+            <br></br>
+            <p className={iconBarP}>Resume</p>
+          </li>
+        </Link>  
+
         <Link className={aa} to="/tutoring">
           <li> <FaChalkboardTeacher size={24} /> 
             <br></br>
@@ -67,7 +78,15 @@ export default function IconBarHeader() {
           </li>
         </Link>
 
-        <Link className={aa} to="/resume">
+        <Nav.Link className={aa} href="https://github.com/birajsilwal" target="_blank"><FiGithub size={24} />
+          <p className={iconBarP}>Github</p>
+        </Nav.Link>
+
+        <Nav.Link className={aa} href="https://www.linkedin.com/in/birajsilwal/" target="_blank"><FaLinkedinIn size={24}/>
+          <p className={iconBarP}>LinkedIn</p>
+        </Nav.Link>
+
+        <Link className={aa} to="/more">
           <li> <GoThreeBars size={24}/> 
             <br></br>
             <p className={iconBarP}>More</p>

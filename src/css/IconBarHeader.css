@@ -1,4 +1,5 @@
 /* for mobile devices */
+/* hiding hamburger */
 @media screen and (max-width: 500px) {
   .navbar-toggler {
     display: none;

@@ -17,6 +17,29 @@ export default function NewHeader() {
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 1rem;
+
+    /* &:after {
+      width: 0;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      transition: all ease 0.5s;
+      content: "";
+      background-color: blue;
+    }
+
+    &:hover::after {
+      width: 50%;
+      border-radius: 50%;
+      transition: all ease 0.5s;
+      top: -10;
+    } */
+
+
+
+
+
+
     &:hover {
       text-decoration: none;
     }
@@ -38,6 +61,7 @@ export default function NewHeader() {
     }
   `
 
+  
   return (
     <Navbar expand="sm">
       <Navbar.Brand href="#home">Biraj Silwal</Navbar.Brand>
