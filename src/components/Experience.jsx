@@ -21,11 +21,11 @@ export default function Experience() {
                   <h4 class={ExperienceCss.h4}>App Developer</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> UNM Engineering Student Success Center </h5>
                   <ul class="exp-ul">
-                    <li>Developed Server-Side Rendering (SSR) Progressive Web Application (PWA) using Vue.js framework (Nuxt.js) as a front-end and MongoDB as a back-end.</li>
-                    <li>Used Keystone.js as a Content Management System (CMS). </li>
+                    <li>Developed hybrid app (android, ios, and web) using ReactNative framework, MongoDB as a back-end, and Parse Server as a BaaS (previously built with Vue.js)</li>
+                    <li>Created and conducted user interviews and questionnaires to identify and analyze current user experiences and pain points</li>
+                    <li>Used agile software engineering methods to enhance the UI/UX of an app</li>
                     <li>Deployed an app (<a href="https://success.unm.edu" target="_blank" rel="noopener noreferrer">success.unm.edu</a>) to Amazon Web Services (AWS) EC2 instance.</li>
-                    <li>Designed and programmed the UI/UX.</li>
-                    <li>Other technologies used: Node.js, Graphql, AWS EC2, and Bootstrap.</li>
+                    <li>Planned, designed, and programmed the UI/UX with a 95% user satisfaction rating</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4 pb-5">
@@ -37,11 +37,11 @@ export default function Experience() {
 
                 {/* Grader */}
                 <div class="col-md-7 col-sm-8">
-                  <h4 class={ExperienceCss.h4}>Grader</h4>
+                  <h4 class={ExperienceCss.h4}>Teaching Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> Department of Computer Science, University of New Mexico </h5>
                   <ul class="exp-ul">
-                    <li>Provides in-class JAVA tutoring (topics: OOP, class, object, inheritance, polymorphism, interface, JavaFX, exception handling), and other as needed.</li>
-                    <li>Grades assignments and tests on JAVA programs of 26 students.</li>
+                    <li>Engage with students per week to explain concepts regarding Object-Oriented Programming System, Exception Handling, Java Collections, and JavaFX</li>
+                    <li>Hold office hours, grade assignments, and answer student questions</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4 pb-5">
@@ -76,9 +76,8 @@ export default function Experience() {
                   <h4 class={ExperienceCss.h4}>Lab Assistant</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> UNM Moses Biological Computation Lab  </h5>
                   <ul class="exp-ul">
-                    <li>Assisted in creating Convolutional Neural Network (CNN) based image classifier using Python and Tensorflow.</li>
-                    <li>Deployed trained models into the robot and reported the outcomes.</li>
-                    <li>Created and manipulated data sets of thousands of images to train machine learning model.</li>
+                    <li>Collaborated with a team of two other graduate students to build a machine learning model that classifies and recognizes AprilTag image using the Convolutional Neural Network (CNN) algorithm</li>
+                    <li>Trained the system with over 10,000 images resulting in a 80% performance accuracy</li>
                   </ul>
                 </div>
                 <div class="col-md-3 col-sm-4 pb-5">
