@@ -43,7 +43,7 @@ export default function Banner() {
                   <div style={props}>
                     <div class="banner-content">
                       <h1 class="banner-title">Hi! I'm Biraj.</h1>
-                      <h4 className={HomeCss.bannerCaption}>Computer Science + Business Management @ UNM '22</h4>
+                      <h4 className={HomeCss.bannerCaption}>Computer Science + Economics @ UNM '22</h4>
                     </div>
                   </div>
                 </div>

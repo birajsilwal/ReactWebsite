@@ -21,7 +21,7 @@ export default function Experience() {
                   <h4 class={ExperienceCss.h4}>App Developer</h4>
                   <h5 class="exp-comp"><BsBriefcaseFill /> UNM Engineering Student Success Center </h5>
                   <ul class="exp-ul">
-                    <li>Developed hybrid app (android, ios, and web) using ReactNative framework, MongoDB as a back-end, and Parse Server as a BaaS (previously built with Vue.js)</li>
+                    <li>Developed Progressive Web Application (PWA) using React framework (Next.js) as a frontend, MongoDB as a backend, and Parse Server as a BaaS (Note: initially built with Vue.js)</li>
                     <li>Created and conducted user interviews and questionnaires to identify and analyze current user experiences and pain points</li>
                     <li>Used agile software engineering methods to enhance the UI/UX of an app</li>
                     <li>Deployed an app (<a href="https://success.unm.edu" target="_blank" rel="noopener noreferrer">success.unm.edu</a>) to Amazon Web Services (AWS) EC2 instance.</li>

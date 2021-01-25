@@ -16,7 +16,7 @@ export default function AboutMe() {
             </div>
             <div class="col-md-6 col-sm-8">
               <p className={`${HomeCss.pLight1} text-left`}>
-                Hi! I'm a senior studying computer science and business management at the University of New Mexico. 
+                Hi! I'm a senior studying computer science and economics at the University of New Mexico. 
               </p>
             </div>
           </div>
