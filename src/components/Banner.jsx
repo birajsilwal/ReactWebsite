@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HomeCss from "../css/Home.module.css";
 import "../css/Home.css";
 import ro from "../static/robot2.png";
+import programmer1 from "../static/programmer1.svg";
 import {Spring} from 'react-spring/renderprops'
 
 export default function Banner() {
@@ -27,7 +28,7 @@ export default function Banner() {
               { props => (
                 <div class="col-lg-6">
                   <div style={props}>
-                    <img src={ro} alt=""></img>
+                    <img src={programmer1} alt=""></img>
                   </div>
                 </div>
               )}

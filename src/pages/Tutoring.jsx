@@ -10,6 +10,9 @@ export default function Tutoring() {
     align-items: center;
     justify-content: center;
   `
+  const pengi = css`
+    color: red;
+  `
   const courses = css`
     width: 65%;
     margin: 0 auto;
@@ -25,7 +28,7 @@ export default function Tutoring() {
       <h4 class="pt-2">My tutoring hours @ UNM ESS </h4>
       <h4 class="pb-4">Spring 2021</h4>
       
-      <p>Please Use the Penji App/Website to connect with tutors! <a href="https://ess.unm.edu/services/tutoring/index.html" target="_blank" rel="noopener noreferrer">
+      <p><span className={ pengi }>Please Use the Penji App/Website to connect with tutors!</span> <a href="https://ess.unm.edu/services/tutoring/index.html" target="_blank" rel="noopener noreferrer">
         Click here for more info.</a> 
       </p>
 
