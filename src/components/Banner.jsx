@@ -2,9 +2,8 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomeCss from "../css/Home.module.css";
 import "../css/Home.css";
-import ro from "../static/robot2.png";
 import programmer1 from "../static/programmer1.svg";
-import {Spring} from 'react-spring/renderprops'
+import {Spring} from 'react-spring'
 
 export default function Banner() {
 

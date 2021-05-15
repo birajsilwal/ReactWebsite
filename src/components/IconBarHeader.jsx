@@ -1,6 +1,6 @@
 import React from 'react'
 import "../css/IconBarHeader.css";
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 import { TiHome } from 'react-icons/ti';
 import { FaChalkboardTeacher } from 'react-icons/fa';
 import { GoThreeBars } from 'react-icons/go';
@@ -65,7 +65,7 @@ export default function IconBarHeader() {
         </Link>
 
         <Link className={aa} to="/resume">
-          <li> <img src="https://img.icons8.com/ios-filled/96/000000/open-resume.png" width="25em"/>
+          <li> <img src="https://img.icons8.com/ios-filled/96/000000/open-resume.png" width="25em" alt=""/>
             <br></br>
             <p className={iconBarP}>Resume</p>
           </li>

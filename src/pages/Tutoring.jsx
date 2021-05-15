@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/Button";
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 
 export default function Tutoring() {
 

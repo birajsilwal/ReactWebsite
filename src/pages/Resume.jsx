@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from "react-bootstrap/Button";
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 
 export default function Resume() {
 
