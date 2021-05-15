@@ -6,9 +6,13 @@ import "../css/Header.css";
 import { FiGithub } from 'react-icons/fi';
 import { FaLinkedinIn } from 'react-icons/fa';
 
-import { css } from 'emotion';
+import { css } from '@emotion/css';
 
 export default function NewHeader() {
+
+  const brandName = css`
+    padding-left: 0.5rem;
+  `
 
   const aa = css`
     position: relative;
@@ -17,27 +21,6 @@ export default function NewHeader() {
     text-transform: uppercase;
     text-decoration: none;
     margin: 0 1rem;
-
-    /* &:after {
-      width: 0;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      transition: all ease 0.5s;
-      content: "";
-      background-color: blue;
-    }
-
-    &:hover::after {
-      width: 50%;
-      border-radius: 50%;
-      transition: all ease 0.5s;
-      top: -10;
-    } */
-
-
-
-
 
 
     &:hover {
@@ -64,7 +47,7 @@ export default function NewHeader() {
   
   return (
     <Navbar expand="sm">
-      <Navbar.Brand href="#home">Biraj Silwal</Navbar.Brand>
+      <Navbar.Brand className={brandName} href="#home">Biraj Silwal</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
         <Link className={aa} to="/">Home</Link>
