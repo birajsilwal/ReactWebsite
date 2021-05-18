@@ -5,7 +5,25 @@ import "../css/Home.css";
 import programmer1 from "../static/programmer1.svg";
 import {Spring} from 'react-spring'
 
+import { makeStyles } from '@material-ui/core/styles';
+
+const useStyles = makeStyles((theme) => ({
+  hi: {
+    [theme.breakpoints.up('md')]: {
+      fontSize: '5em',
+    },
+  },
+  bannerCaption: {
+    fontWeight: '300',
+    [theme.breakpoints.up('md')]: {
+      fontSize: '2em',
+    }
+  },
+}))
+
 export default function Banner() {
+
+  const classes = useStyles();
 
   const HiMessageAlign = {
     alignSelf: "center"
@@ -42,8 +60,8 @@ export default function Banner() {
                 <div style={HiMessageAlign} class="col-lg-6">
                   <div style={props}>
                     <div class="banner-content">
-                      <h1 class="banner-title">Hi! I'm Biraj.</h1>
-                      <h4 className={HomeCss.bannerCaption}>Computer Science + Economics @ UNM '22</h4>
+                      <h1 className={classes.hi}>Hi! I'm Biraj.</h1>
+                      <h4 className={classes.bannerCaption}>Computer Science + Economics @ UNM '22</h4>
                     </div>
                   </div>
                 </div>
