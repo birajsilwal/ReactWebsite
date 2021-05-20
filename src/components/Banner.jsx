@@ -1,6 +1,5 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import HomeCss from "../css/Home.module.css";
 import "../css/Home.css";
 import programmer1 from "../static/programmer1.svg";
 import {Spring} from 'react-spring'
